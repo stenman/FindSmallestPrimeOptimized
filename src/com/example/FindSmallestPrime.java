@@ -8,7 +8,11 @@ import java.util.Set;
 public class FindSmallestPrime {
 
 	public static void main(String[] args) {
+		run();
+		// runTests();
+	}
 
+	private static void run() {
 		UserInput userInput = new UserInput();
 		PrimeFinder findSmallestPrime = new PrimeFinder();
 
@@ -33,4 +37,8 @@ public class FindSmallestPrime {
 		System.out.println("Total time elapsed: " + duration / 1000000 + "ms");
 	}
 
+	private static void runTests() {
+		HillbillyTester ht = new HillbillyTester();
+		ht.runTests();
+	}
 }

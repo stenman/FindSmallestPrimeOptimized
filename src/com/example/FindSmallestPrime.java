@@ -10,7 +10,7 @@ public class FindSmallestPrime {
 	public static void main(String[] args) {
 
 		UserInput userInput = new UserInput();
-		FindSmallestPrimes findSmallestPrime = new FindSmallestPrimes();
+		PrimeFinder findSmallestPrime = new PrimeFinder();
 
 		List<Integer> numbers = userInput.promptUserForInput();
 		int n1 = numbers.get(0);
